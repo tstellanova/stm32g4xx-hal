@@ -46,6 +46,7 @@ pub use stm32g4::stm32g484 as stm32;
 #[cfg(feature = "rt")]
 pub use crate::stm32::interrupt;
 
+
 // pub mod adc;
 // pub mod crc;
 // pub mod dac;
@@ -58,7 +59,7 @@ pub mod prelude;
 // pub mod pwm;
 // pub mod qei;
 pub mod rcc;
-// pub mod rng;
+pub mod rng;
 // pub mod serial;
 // pub mod spi;
 // pub mod stopwatch;
